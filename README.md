@@ -9,7 +9,7 @@ minimal latencies for queries, but consumes more memory than using the Solr inte
 The current status of the source code is an early beta release. After further testing, the package will probably be made available via Maven
 and regular version numbering will start.
 
-The easiest installation method is downloading the jar file directly from the [InterTextueel](https://intertextueel.net/conceptnet) website.
+The easiest installation method is downloading the jar file directly from the [InterTextueel](https://intertextueel.net/modeling-common-sense-with-conceptnet/) website.
 
 Two additional jars are *required*, namely the Apache Commons math3 and Apache Commons lang3 libraries.
 They can be downloaded from the [Apache Commons](https://commons.apache.org/) website,
