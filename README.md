@@ -6,7 +6,7 @@ minimal latencies for queries, but consumes more memory than using the Solr inte
 
 ## Installation
 
-The current status of the source code is an early beta release. After further testing, the package will probably be made available via Maven
+The current status of the source code is a beta release. After further testing, the package will probably be made available via Maven
 and regular version numbering will start.
 
 The easiest installation method is downloading the jar file directly from the [InterTextueel](https://intertextueel.net/modeling-common-sense-with-conceptnet/) website.
@@ -25,6 +25,8 @@ Explore the source code in the `examples/` subfolder in this repository to see s
 ## Documentation
 
 You can build the documentation using the `build-doc.sh` script.
+
+The documentation is also available [online](http://intertextueel.net/conceptnet-javadoc/)
 
 ## References
 
