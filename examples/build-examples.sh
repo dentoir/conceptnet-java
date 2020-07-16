@@ -33,5 +33,5 @@ javac -classpath "$classes:$conceptnetjar" NearestNeighbors.java
 javac -classpath "$classes:$conceptnetjar" FindPaths.java
 
 echo ""
-echo "Run example: java -classpath \"$classes:$conceptnetjar\" -Xmx14336m SimpleLookup"
+echo "Run example: java -classpath \"$classes:$conceptnetjar\" -Xmx14336m Lookup"
 
