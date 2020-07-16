@@ -21,7 +21,7 @@ public class Explorer {
         String[] languages = { "nl", "en" };
         ConceptNetFilter filter = new ConceptNetFilter(false, false, languages);
         try {
-            conceptnet = new ConceptNet("/var/local/conceptnet5/conceptnet-assertions-5.5.5.csv", "/var/local/conceptnet5/numberbatch-17.06.txt", filter, true);
+            conceptnet = new ConceptNet("/var/local/conceptnet5/conceptnet-assertions-5.7.0.csv", "/var/local/conceptnet5/numberbatch-19.08.txt", filter, true);
         } catch (IOException e) {
             System.err.println(e.getMessage());
             System.exit(1);

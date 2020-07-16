@@ -16,7 +16,7 @@ public class Lookup {
         try {
             String[] languages = { "nl", "en" };
             ConceptNetFilter filter = new ConceptNetFilter(true, false, languages);
-            conceptnet = new ConceptNet("/var/local/conceptnet5/conceptnet-assertions-5.5.5.csv", "", filter);
+            conceptnet = new ConceptNet("/var/local/conceptnet5/conceptnet-assertions-5.7.0.csv", "", filter);
         } catch (IOException e) {
             System.err.println(e.getMessage());
             System.exit(1);
